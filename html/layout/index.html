@@ -2,50 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="navigation">
-      <div class="navigation__title">JACKETS</div>
-
-      <div class="navigation__search">
-        <div class="navigation__filter">
-          <label class="navigation__label">FILTER BY</label>
-          <select class="navigation__select">
-            <option>Jackets</option>
-            <option>Jacket23</option>
-            <option>Jackets3232</option>
+      <h1 class="navigation__title">JACKETS</h1>
+      <div class="search">
+        <div class="search__filter">
+          <label class="search__label">FILTER BY</label>
+          <select class="search__select">
+            <option>All</option>
+            <option>Jacket</option>
+            <option>2022</option>
           </select>
         </div>
-        <div class="navigation__sort">
-          <label class="navigation__label">SORT BY</label>
-          <select class="navigation__select">
-            <option>by price</option>
-            <option>be date</option>
+        <div class="search__sort">
+          <label class="search__label">SORT BY</label>
+          <select class="search__select">
+            <option>Featured</option>
+            <option>Jacket</option>
+            <option>2022</option>
           </select>
         </div>
       </div>
     </nav>
     <section class="products">
       <div class="product">
-        <span class="product__sale"></span>
-        <div class="product__img">
+        <div class="product__image">
           <img
-            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_305x.jpeg?v=1445623366"
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
           />
         </div>
         <div class="product__info">
-          <div class="product__name">Haze</div>
-          <div class="product__price">150$</div>
-          <div class="product__avail">SOLD</div>
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$150.89</h6>
         </div>
       </div>
-      <div class="product"></div>
-      <div class="product"></div>
-      <div class="product"></div>
-      <div class="product"></div>
+      <div class="product">
+        <div class="product__image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
+          />
+        </div>
+        <!-- <span class="product__sale">SALE</span> -->
+        <div class="product__info">
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$12.96</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$13.96</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$132</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$32.96</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_140x.jpeg?v=1445623366"
+            alt=""
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Versity</h5>
+          <h6 class="product__price">$500.76</h6>
+        </div>
+      </div>
     </section>
   </body>
 </html>
