@@ -22,7 +22,6 @@
 
 function getPrimes(num) {
   for (let index = 2; index <= num; index++) {
-      console.log('index is' + index);
     let isPrime = true;
     for (let secondIndex = 2; secondIndex < index; secondIndex++) {
       if (index % secondIndex === 0) {
