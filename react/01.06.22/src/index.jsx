@@ -3,6 +3,6 @@
 // import './index.scss';
 // import App from './App.jsx';
 
-const rootElement = document.querySelector('#root');
+// const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<App />, rootElement);
+// ReactDOM.render(<App />, rootElement);

@@ -8,17 +8,17 @@
 // isProcessing: bool
 // 
 
-class Auth extends React.Comment {
-    render () {
-        return (
-            <>
-            <Login></Login>
-            <Logout></Logout>
-            <Spinner></Spinner>
-            </>
-        )
-    }
-}
+// class Auth extends React.Comment {
+//     render () {
+//         return (
+//             <>
+//             <Login></Login>
+//             <Logout></Logout>
+//             <Spinner></Spinner>
+//             </>
+//         )
+//     }
+// }
 
 
-export default Auth;
+// export default Auth;

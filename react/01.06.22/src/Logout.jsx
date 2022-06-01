@@ -2,9 +2,9 @@
 
 // in: obj (onLogout: callBack)
 // output: jsx
-const Logout = (props) => {
+// const Logout = (props) => {
 
-    return <button className="logout btn" >Logout</button>
-};
+//     return <button className="logout btn" >Logout</button>
+// };
 
-export default Logout;
+// export default Logout;
