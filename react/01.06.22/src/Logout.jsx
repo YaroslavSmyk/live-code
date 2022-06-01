@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 // in: obj (onLogout: callBack)
 // output: jsx
