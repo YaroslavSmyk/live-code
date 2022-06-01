@@ -1,15 +1,15 @@
-// import React from 'react';
+import React from 'react';
 
-// const App = () => {
-//   return (
-//     <div id="root">
-//       <span clasNames="spinner"></span>
+const App = () => {
+  return (
+    <div id="root">
+      <span clasNames="spinner"></span>
 
-//       <button className="login btn">Login</button>
+      <button className="login btn">Login</button>
 
-//       <button className="logout btn">Logout</button>
-//     </div>
-//   );
-// };
+      <button className="logout btn">Logout</button>
+    </div>
+  );
+};
 
-// export default App;
+export default App;
