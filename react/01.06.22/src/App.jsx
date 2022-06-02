@@ -1,15 +1,6 @@
 import React from 'react';
+import Auth from './Auth';
 
-const App = () => {
-  return (
-    <div id="root">
-      <span clasNames="spinner"></span>
-
-      <button className="login btn">Login</button>
-
-      <button className="logout btn">Logout</button>
-    </div>
-  );
-};
+const App = () => <Auth />;
 
 export default App;
